@@ -1637,6 +1637,16 @@ MultiBrushCollections:
 				Inner: Rock
 				End: Rock.D
 				Points: 1,0, 2,0, 2,1, 2,2
+		MultiBrush@316partial:
+			Tile@4: 316,4
+				Offset: 0,0
+			Tile@5: 316,5
+				Offset: 1,0
+			Segment:
+				Start: Rock.RD
+				Inner: Rock
+				End: Rock.D
+				Points: 1,0, 1,1
 		MultiBrush@317:
 			Template: 317
 			Segment:
@@ -1679,6 +1689,16 @@ MultiBrushCollections:
 				Inner: Rock
 				End: Rock.RU
 				Points: 1,2, 1,1, 1,0, 2,0 
+		MultiBrush@322:
+			Tile@3: 322,3
+				Offset: 0,0
+			Tile@4: 322,4
+				Offset: 1,0
+			Segment:
+				Start: Rock.U
+				Inner: Rock
+				End: Rock.RU
+				Points: 1,1, 1,0
 		MultiBrush@323:
 			Template: 323
 			Segment:
@@ -1738,10 +1758,10 @@ MultiBrushCollections:
 		MultiBrush@331:
 			Template: 331
 			Segment:
-				Start: Rock.U
+				Start: Rock.RU
 				Inner: Rock
 				End: Rock.R
-				Points: 1,1, 1,0, 2,0
+				Points: 0,1, 1,1, 1,0, 2,0
 		MultiBrush@332:
 			Template: 332
 			Segment:
@@ -1769,13 +1789,41 @@ MultiBrushCollections:
 				Start: Clear.R
 				Inner: Rock
 				End: Rock.R
-				Points: 1,0, 0,0
+				Points: 0,0, 1,0
+		MultiBrush@335down:
+			Template: 335
+			Segment:
+				Start: Clear.D
+				Inner: Rock
+				End: Rock.R
+				Points: 1,0
+		MultiBrush@335up:
+			Template: 335
+			Segment:
+				Start: Clear.U
+				Inner: Rock
+				End: Rock.R
+				Points: 0,1, 0,0, 1,0
 		MultiBrush@336:
 			Template: 336
 			Segment:
 				Start: Rock.R
 				Inner: Rock
 				End: Clear.R
+				Points: 0,0, 1,0
+		MultiBrush@336down:
+			Template: 336
+			Segment:
+				Start: Rock.R
+				Inner: Rock
+				End: Clear.D
+				Points: 0,0, 1,0, 1,1
+		MultiBrush@336up:
+			Template: 336
+			Segment:
+				Start: Rock.R
+				Inner: Rock
+				End: Clear.U
 				Points: 0,0, 1,0
 		MultiBrush@337:
 			Template: 337
@@ -1784,6 +1832,20 @@ MultiBrushCollections:
 				Inner: Rock
 				End: Clear.L
 				Points: 2,1, 1,1, 0,1
+		MultiBrush@337down:
+			Template: 337
+			Segment:
+				Start: Rock.L
+				Inner: Rock
+				End: Clear.D
+				Points: 2,1, 1,1, 1,2
+		MultiBrush@337up:
+			Template: 337
+			Segment:
+				Start: Rock.L
+				Inner: Rock
+				End: Clear.U
+				Points: 2,1, 1,1, 1,0
 		MultiBrush@338:
 			Template: 338
 			Segment:
@@ -1791,20 +1853,34 @@ MultiBrushCollections:
 				Inner: Rock
 				End: Rock.L
 				Points: 2,1, 1,1, 0,1
+		MultiBrush@338down:
+			Template: 338
+			Segment:
+				Start: Clear.D
+				Inner: Rock
+				End: Rock.L
+				Points: 1,0, 1,1, 0,1
+		MultiBrush@338up:
+			Template: 338
+			Segment:
+				Start: Clear.U
+				Inner: Rock
+				End: Rock.L
+				Points: 1,2, 1,1, 0,1
 		MultiBrush@339:
 			Template: 339
 			Segment:
 				Start: Rock.RD
 				Inner: Rock
-				End: Rock.RD
-				Points: 1,0, 2,0, 2,1
+				End: Rock.R
+				Points: 1,0, 2,0
 		MultiBrush@340:
 			Template: 340
 			Segment:
-				Start: Rock.RU
+				Start: Rock.R
 				Inner: Rock
 				End: Rock.RU
-				Points: 0,1, 0,0, 1,0
+				Points: 0,0, 1,0
 
 # Extras
 	Trees:
